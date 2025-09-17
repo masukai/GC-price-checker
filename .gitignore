@@ -1,1 +1,14 @@
 .DS_Store
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+!terraform/env/*.tfvars.example
+
+# Credentials
+terraform/credentials.tf
+
+# Python
+__pycache__/
+

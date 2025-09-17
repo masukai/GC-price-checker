@@ -1,0 +1,6 @@
+project_id       = "my-dev-project"
+region           = "asia-northeast1"
+image            = "gcr.io/my-dev-project/gcp-cost-notifier:latest"
+chat_webhook_url = "https://chat.googleapis.com/..."
+billing_table    = "billing.gcp_billing_export_v1_xxxx"
+credentials_file = "../keys/dev.json"
