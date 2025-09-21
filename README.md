@@ -25,6 +25,10 @@ docker build -t gcr.io/PROJECT_ID/gcp-cost-notifier:latest .
 docker push gcr.io/PROJECT_ID/gcp-cost-notifier:latest
 ```
 
+### Codex 用セットアップ
+
+`.codex/setup.sh` が Codex の作業環境で行う処理や追加インストールの詳細は、[Codex コーディング環境セットアップガイド](docs/codex_setup.md) を参照してください。
+
 ### Terraform の初期設定
 
 1. `terraform/credentials.tf.example` を `terraform/credentials.tf` にコピーし、
